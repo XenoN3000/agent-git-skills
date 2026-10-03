@@ -14,7 +14,7 @@ Installs all Git skills into `~/.gemini/config/skills/` so they are automaticall
 npx agent-git-skills
 
 # Or directly from your GitHub repository (zero setup required!):
-npx github:hoseinnahari/agent-git-skills
+npx github:XenoN3000/agent-git-skills
 ```
  
 ### 2. Install Project-Locally
@@ -23,7 +23,7 @@ Installs skills into the current repository (`.agents/skills/`) to share with te
 ```bash
 npx agent-git-skills --project
 # or
-npx github:hoseinnahari/agent-git-skills --project
+npx github:XenoN3000/agent-git-skills --project
 ```
  
 ### 3. List Bundled Skills
@@ -61,14 +61,14 @@ git commit -m "feat: initial commit for agent-git-skills"
 gh repo create agent-git-skills --public --source=. --push
 
 # Or manually add remote and push:
-git remote add origin git@github.com:hoseinnahari/agent-git-skills.git
+git remote add origin git@github.com:XenoN3000/agent-git-skills.git
 git branch -M main
 git push -u origin main
 ```
 
 Once pushed to GitHub, anyone can run:
 ```bash
-npx github:hoseinnahari/agent-git-skills
+npx github:XenoN3000/agent-git-skills
 ```
 
 ### Publish to NPM (Optional):
@@ -85,4 +85,4 @@ npx agent-git-skills
 ---
 
 ## 📄 License
-MIT © [Hosein Nahari](https://github.com/hoseinnahari)
+MIT © [Hosein Nahari](https://github.com/XenoN3000)
