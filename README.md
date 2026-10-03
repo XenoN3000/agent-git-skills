@@ -1,34 +1,34 @@
-# Antigravity Git Skills 🚀
-
-A complete suite of modular Git workflow skills for **Google Antigravity (AGY)** and Gemini coding agents, complete with an instant `npx` installer.
-
+# Agent Git Skills 🚀
+ 
+A complete suite of modular Git workflow skills for **AI coding agents** and **Google Antigravity (AGY)**, complete with an instant `npx` installer.
+ 
 ---
-
+ 
 ## ⚡ Instant Installation
-
+ 
 ### 1. Install Globally (Recommended)
 Installs all Git skills into `~/.gemini/config/skills/` so they are automatically available across **all repositories and projects** on your machine:
-
+ 
 ```bash
 # If published to npm:
-npx antigravity-git-skills
+npx agent-git-skills
 
 # Or directly from your GitHub repository (zero setup required!):
-npx github:hoseinnahari/antigravity-git-skills
+npx github:hoseinnahari/agent-git-skills
 ```
-
+ 
 ### 2. Install Project-Locally
 Installs skills into the current repository (`.agents/skills/`) to share with teammates via version control:
-
+ 
 ```bash
-npx antigravity-git-skills --project
+npx agent-git-skills --project
 # or
-npx github:hoseinnahari/antigravity-git-skills --project
+npx github:hoseinnahari/agent-git-skills --project
 ```
-
+ 
 ### 3. List Bundled Skills
 ```bash
-npx antigravity-git-skills --list
+npx agent-git-skills --list
 ```
 
 ---
@@ -54,21 +54,21 @@ npx antigravity-git-skills --list
 # Initialize and commit
 git init
 git add .
-git commit -m "feat: initial commit for antigravity-git-skills"
+git commit -m "feat: initial commit for agent-git-skills"
 
 # Create repo on GitHub (or use GitHub Web UI)
 # Using GitHub CLI:
-gh repo create antigravity-git-skills --public --source=. --push
+gh repo create agent-git-skills --public --source=. --push
 
 # Or manually add remote and push:
-git remote add origin git@github.com:hoseinnahari/antigravity-git-skills.git
+git remote add origin git@github.com:hoseinnahari/agent-git-skills.git
 git branch -M main
 git push -u origin main
 ```
 
 Once pushed to GitHub, anyone can run:
 ```bash
-npx github:hoseinnahari/antigravity-git-skills
+npx github:hoseinnahari/agent-git-skills
 ```
 
 ### Publish to NPM (Optional):
@@ -79,7 +79,7 @@ npm publish --access public
 
 Once published to npm, anyone can run:
 ```bash
-npx antigravity-git-skills
+npx agent-git-skills
 ```
 
 ---

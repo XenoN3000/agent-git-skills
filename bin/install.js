@@ -13,15 +13,15 @@ const args = process.argv.slice(2);
 
 if (args.includes('--help') || args.includes('-h')) {
   console.log(`
-Antigravity Git Skills Installer
-================================
+Agent Git Skills Installer
+==========================
 
-Installs standard Git workflow skills for Google Antigravity (AGY).
+Installs standard Git workflow skills for AI coding agents and Google Antigravity (AGY).
 
 Usage:
-  npx antigravity-git-skills [options]
+  npx agent-git-skills [options]
   # Or directly from GitHub:
-  npx github:<username>/antigravity-git-skills [options]
+  npx github:<username>/agent-git-skills [options]
 
 Options:
   --global, -g    Install skills globally for all projects (Default: ~/.gemini/config/skills/)
@@ -65,7 +65,7 @@ function copyDir(src, dest) {
   }
 }
 
-console.log('\n🚀 Installing Antigravity Git Skills...\n');
+console.log('\n🚀 Installing Agent Git Skills...\n');
 
 if (isProject) {
   const targetDir = path.resolve(process.cwd(), '.agents', 'skills');
