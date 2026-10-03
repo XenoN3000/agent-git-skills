@@ -1,0 +1,28 @@
+{
+  "name": "antigravity-git-skills",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Git workflow skills for Google Antigravity (AGY)",
+  "bin": {
+    "antigravity-git-skills": "./bin/install.js",
+    "git-skills": "./bin/install.js"
+  },
+  "files": [
+    "bin",
+    "skills"
+  ],
+  "keywords": [
+    "antigravity",
+    "gemini",
+    "skills",
+    "git",
+    "workflow",
+    "agentic-coding"
+  ],
+  "author": "Hosein Nahari",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoseinnahari/antigravity-git-skills.git"
+  }
+}
