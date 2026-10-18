@@ -45,6 +45,8 @@ This skill provides an integrated reference and standard operating procedures fo
 | **Push Upstream** | `git push -u origin <branch>` | [git-push](../git-push/SKILL.md) |
 | **Merge Branch** | `git merge <feature-branch>` | [git-merge](../git-merge/SKILL.md) |
 | **Undo / Reset** | `git reset --soft HEAD~1` / `git restore` | [git-reset](../git-reset/SKILL.md) |
+| **Stash Changes** | `git stash push -m "..."` / `git stash pop` | [git-stash](../git-stash/SKILL.md) |
+| **Rebase & Cleanup** | `git rebase -i <base>` / `git rebase <upstream>` | [git-rebase](../git-rebase/SKILL.md) |
 
 ---
 

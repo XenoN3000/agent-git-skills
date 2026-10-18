@@ -43,6 +43,8 @@ npx agent-git-skills --list
 | **`git-push`** | Safe remote pushes | Upstream tracking (`-u origin`), tag pushing, handling rejected non-fast-forward pushes, safe `--force-with-lease`. |
 | **`git-merge`** | Branch merges & conflicts | Fast-forward merges, `--no-ff` merge commits, `--squash`, conflict marker resolution. |
 | **`git-reset`** | Undo & Commit recovery | Unstaging (`git restore --staged`), discarding edits, soft/mixed/hard resets, `git reflog` emergency recovery. |
+| **`git-rebase`** | Rebase & history cleanup | Linear branch updates, interactive rebases (`-i`), squashing, fixups, conflict resolution. |
+| **`git-stash`** | Stash & WIP management | Stashing uncommitted changes (`push -m`), listing, popping, applying, creating stash branches. |
 | **`git-workflow`** | Master lifecycle runbook | Integrated end-to-end standard development cycle and safety rules. |
 
 ---
